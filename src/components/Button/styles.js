@@ -26,6 +26,12 @@ export const lightStyles = StyleSheet.create({
     fontSize: 38,
     marginBottom: 10,
   },
+  screenFirstNumber: {
+    fontSize: 70,
+    color: '#EAEAEA',
+    fontWeight: '400',
+    alignSelf: 'flex-end',
+  },
 });
 
 export const darkStyles = StyleSheet.create({
@@ -52,5 +58,11 @@ export const darkStyles = StyleSheet.create({
     fontWeight: '400',
     fontSize: 38,
     marginBottom: 10,
+  },
+  screenFirstNumber: {
+    fontSize: 70,
+    color: '#EAEAEA',
+    fontWeight: '400',
+    alignSelf: 'flex-end',
   },
 });
